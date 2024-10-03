@@ -1,0 +1,39 @@
+.banner {
+  background-repeat: no-repeat;
+  background-image: url(../../assets/banner.png);
+  background-position: center;
+  background-size: cover;
+}
+.btn {
+  background-color: var(--0e2149);
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: var(--white);
+  padding: 12px 50px;
+  border: none;
+}
+.text {
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: var(--white);
+  width: 360px;
+  margin-bottom: 50px;
+}
+.title {
+  margin-bottom: 32px;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 52px;
+  color: var(--white);
+}
+.block {
+  padding-top: 133px;
+  padding-bottom: 143px;
+}

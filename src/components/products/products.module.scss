@@ -1,0 +1,106 @@
+.list {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 374px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 47px;
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  color: var(--111111);
+}
+.btn {
+  padding: 13px 28px;
+  width: 103px;
+  background-color: var(--eff2f4);
+  border: none;
+  cursor: pointer;
+}
+.block {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--0e2149);
+  margin-top: 16px;
+  margin-bottom: 8px;
+  text-align: start;
+}
+.text {
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 130%;
+  color: var(--111111);
+  margin-bottom: 11px;
+  text-align: start;
+}
+.price {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--0e2149);
+  margin-bottom: 8px;
+  text-align: start;
+}
+.old_price {
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: line-through;
+  color: var(--cfb08b);
+  margin-bottom: 24px;
+  text-align: start;
+}
+.wrap {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 245px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.btn_1 {
+  background-color: var(--0e2149);
+  padding: 12px 26px;
+  border: none;
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: var(--white);
+  cursor: pointer;
+}
+.btn_2 {
+  background-color: var(--cfb08b);
+  padding: 12px 26px;
+  border: none;
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  cursor: pointer;
+  color: var(--white);
+}
+.product {
+  border: 1px solid var(--eff2f4);
+  text-align: center;
+  padding: 8px;
+  width: 285px;
+}
+.product_list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
